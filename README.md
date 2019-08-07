@@ -1,6 +1,5 @@
 # Sample ASP.NET Core application for Azure Pipelines Build
 
-[![Build status](https://dev.azure.com/superusers-kursus/devops/_apis/build/status/working-ok/GUI-build-on-github/ASP.NET%20Core-GUI-Template)](https://dev.azure.com/superusers-kursus/devops/_build/latest?definitionId=10)
 
 
 
@@ -11,3 +10,10 @@ For more information on building .NET Core applications, see [.NET Core](https:/
 
 
 
+## Build Status
+
+[![Build status](https://dev.azure.com/superusers-kursus/devops/_apis/build/status/working-ok/GUI-build-on-github/ASP.NET%20Core-GUI-Template)](https://dev.azure.com/superusers-kursus/devops/_build/latest?definitionId=10)
+
+
+## Deploy URL
+[Deploy using CI/CD to Azure staging-feature-dev slot](https://devop-dotnetcore-2019-staging-feature-dev.azurewebsites.net/)
