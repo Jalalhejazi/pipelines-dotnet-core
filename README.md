@@ -1,4 +1,4 @@
-# Sample ASP.NET Core application for Azure Pipelines Build
+# Sample ASP.NET Core application for Azure Pipelines CI/CD
 
 
 
