@@ -1,0 +1,12 @@
+steps:
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Azure Deploy: devop-dotnetcore-2019'
+  inputs:
+    azureSubscription: 'YOUR_SUBSCRIPTION_HERE'
+    WebAppName: 'devop-dotnetcore-2019'
+    deployToSlotOrASE: true
+    ResourceGroupName: devops
+    SlotName: 'staging-feature-dev'
+    packageForLinux: '$(build.artifactstagingdirectory)/**/*.zip'
+    enableCustomDeployment: true
+    DeploymentType: zipDeploy
