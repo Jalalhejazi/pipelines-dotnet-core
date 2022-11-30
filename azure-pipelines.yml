@@ -15,3 +15,11 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Use the environment variables input below to pass secret variables to this script
+      
+      print "Hello World !"
